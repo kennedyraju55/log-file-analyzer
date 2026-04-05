@@ -23,7 +23,7 @@ def main():
     # Read a log file, optionally only the last N lines.
     print("📝 Example: read_log_file()")
     result = read_log_file(
-        filepath="sample.txt"  # Replace with actual file path
+        filepath="sample.txt"
     )
     print(f"   Result: {result}")
     print()
@@ -31,7 +31,7 @@ def main():
     print("📝 Example: analyze_logs()")
     result = analyze_logs(
         log_content="2024-01-15 10:30:00 ERROR Failed to connect\n2024-01-15 10:30:01 INFO Retry succeeded",
-        focus="sample data"
+        focus="productivity"
     )
     print(f"   Result: {result}")
     print()
